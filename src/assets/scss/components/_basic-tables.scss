@@ -1,0 +1,24 @@
+.axpi-basic-table {
+  width: 100%;
+
+  .action {
+    text-align: right;
+  }
+
+  th {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  tr {
+    border-bottom: 1px solid #e8e8e8;
+  }
+}

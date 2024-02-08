@@ -1,0 +1,81 @@
+.axpi-form {
+  &.width-small {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  &.width-medium {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  &.width-large {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  &.width-xl {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  input,
+  .ant-select-selection,
+  .ant-input-group-addon {
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px,
+      rgb(60 66 87 / 16%) 0px 0px 0px 1px !important;
+    border: none !important;
+    //background: #f5f5f5;
+
+    input {
+      box-shadow: none !important;
+    }
+  }
+
+  .has-error {
+    input,
+    .ant-select-selection,
+    .ant-input-group-addon,
+    .ant-radio-button-wrapper {
+      box-shadow: #f5222d 0px 0px 0px 0px, #f5222d 0px 0px 0px 0px, #f5222d 0px 1px 1px 0px, #f5222d 0px 0px 0px 1px !important;
+
+      input {
+        box-shadow: none !important;
+      }
+    }
+  }
+
+  label {
+    padding-bottom: 25px !important;
+  }
+
+  .form-section {
+    border-bottom: 1px solid #e3e8ee;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+
+    &:last-child {
+      border-bottom: none !important;
+    }
+  }
+
+  .form-header {
+    margin-bottom: 20px;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-1 {
+    flex: 1;
+  }
+
+  .form-footer {
+    text-align: center;
+  }
+
+  .form-margin-bottom {
+    margin-bottom: 50px;
+  }
+}

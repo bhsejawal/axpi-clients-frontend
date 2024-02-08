@@ -1,0 +1,135 @@
+@import "./components/page-title";
+@import "./components/accordions";
+@import "./components/forms";
+@import "./components/modals";
+@import "./components/buttons";
+@import "./components/icon-selector";
+@import "./components/pill-selector";
+@import "./components/tables";
+@import "./components/basic-tables";
+@import "./components/typography";
+@import "./components/filters";
+@import "./components/popovers";
+
+.ant-page-header {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.badge {
+  padding: 0 6px;
+  display: inline-block;
+  border-radius: 100px;
+  background-color: rgb(245, 245, 250);
+  color: rgb(72, 76, 122);
+  border: 1px solid rgb(214, 214, 231);
+  margin-left: 6px;
+}
+
+.status-success {
+  padding: 0 6px;
+  display: inline-block;
+  border-radius: 100px;
+  background-color: rgb(217, 241, 208);
+  color: #458b4f;
+  margin-left: 6px;
+
+  &.bordered {
+    border: 1px solid rgb(153, 190, 139);
+  }
+}
+
+.status-warning {
+  padding: 0 6px;
+  display: inline-block;
+  border-radius: 100px;
+  background-color: rgb(242, 230, 194);
+  color: rgb(175, 134, 97);
+  margin-left: 6px;
+
+  &.bordered {
+    border: 1px solid rgb(202, 184, 130);
+  }
+}
+
+.row-disabled {
+  opacity: 0.5;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.border-bottom-gray {
+  border-bottom: 1px solid #cccccc;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.text-normal {
+  font-weight: normal;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-gray {
+  color: #777777;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.ant-modal {
+  width: 900px !important;
+}
+
+.ant-dropdown-menu-submenu-title {
+  font-size: 16px;
+}
+
+.ant-table-pagination{
+  margin-right: 8px!important;
+}

@@ -1,0 +1,90 @@
+//.ant-table-thead {
+//  th {
+//    padding-top: 10px !important;
+//    padding-bottom: 10px !important;
+//  }
+//}
+
+.table-actions {
+  .ant-btn-link {
+    color: #4f566b;
+  }
+}
+
+.axpi-inner-table {
+  //padding: 10px 10px 5px;
+
+  th {
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  th,
+  td {
+    padding: 16px 16px;
+    overflow-wrap: break-word;
+  }
+
+  .no-padding-top {
+    padding-top: 0 !important;
+  }
+}
+
+.axpi-table {
+  th {
+    background: none !important;
+
+    &:hover {
+      background: unset !important;
+      color: #5469d4;
+    }
+  }
+
+  &.small-th {
+    th {
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+  }
+
+  &.column-dividers {
+    table {
+      border-left: 1px solid #e8e8e8 !important;
+      border-top: 1px solid #e8e8e8 !important;
+    }
+
+    td,
+    th {
+      border-right: 1px solid #e8e8e8 !important;
+    }
+  }
+
+  td {
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
+  }
+
+  .ant-table-thead > tr > th .ant-table-header-column .ant-table-column-sorters:hover::before {
+    background: unset !important;
+  }
+
+  .anticon.off {
+    //display: none !important;
+  }
+
+  .ant-table-thead > tr > th[colspan]:not([colspan="1"]) {
+    text-align: left;
+    border-bottom: 1px solid #e8e8e8 !important;
+  }
+
+  //.ant-table-column-sorter-down.on {
+  //  margin-top: 8px !important;
+  //}
+  //
+  //.anticon.anticon-caret-up.on {
+  //  margin-top: 0px;
+  //}
+}
+
+.rules-row:hover {
+  background-color: rgb(245, 245, 250);
+}
